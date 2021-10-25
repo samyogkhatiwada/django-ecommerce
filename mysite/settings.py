@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'category',
-    'accounts'
+    'accounts',
+    'store',
 ]
 
 MIDDLEWARE = [
@@ -127,3 +128,7 @@ STATICFILES_DIRS = [
     'mysite/static'
 ]
 STATIC_ROOT = "static"
+
+# media file configration 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = "media"
